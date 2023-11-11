@@ -114,8 +114,8 @@
 												        $mail->isSMTP();                                     
 													    $mail->Host = 'smtp.gmail.com';                      
 													    $mail->SMTPAuth = true;                             
-														$mail->Username = 'goodsamaritan2k20@gmail.com';     
-														$mail->Password = 'duxkxivrezeuguqe';           
+														$mail->Username = 'tatakmedellin@gmail.com';     
+														$mail->Password = 'nzctaagwhqlcgbqq';           
 														$mail->SMTPOptions = array(
 														'ssl' => array(
 														'verify_peer' => false,
@@ -127,11 +127,11 @@
 														$mail->Port = 465;                                   
 
 														//Send Email
-														$mail->setFrom('goodsamaritan2k20@gmail.com');
+														$mail->setFrom('tatakmedellin@gmail.com');
 																		        
 														//Recipients
 														$mail->addAddress($email);              
-														$mail->addReplyTo('goodsamaritan2k20@gmail.com');
+														$mail->addReplyTo('tatakmedellin@gmail.com');
 												        
 												        //Content
 												        $mail->isHTML(true);                                  

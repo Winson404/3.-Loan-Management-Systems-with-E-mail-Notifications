@@ -493,8 +493,8 @@ if(isset($_POST['approve_loan'])) {
 				        $mail->isSMTP();                                     
 				        $mail->Host = 'smtp.gmail.com';                      
 				        $mail->SMTPAuth = true;                             
-				        $mail->Username = 'goodsamaritan2k20@gmail.com';     
-								$mail->Password = 'duxkxivrezeuguqe';              
+				        $mail->Username = 'tatakmedellin@gmail.com';     
+								$mail->Password = 'nzctaagwhqlcgbqq';              
 				        $mail->SMTPOptions = array(
 				            'ssl' => array(
 				            'verify_peer' => false,
@@ -506,11 +506,11 @@ if(isset($_POST['approve_loan'])) {
 				        $mail->Port = 465;                                   
 
 				        //Send Email
-				        $mail->setFrom('goodsamaritan2k20@gmail.com');
+				        $mail->setFrom('tatakmedellin@gmail.com');
 				        
 				        //Recipients
 				        $mail->addAddress($email);              
-				        $mail->addReplyTo('goodsamaritan2k20@gmail.com');
+				        $mail->addReplyTo('tatakmedellin@gmail.com');
 				        
 				        //Content
 				        $mail->isHTML(true);                                  
@@ -630,8 +630,8 @@ if(isset($_POST['release_loan'])) {
 						        $mail->isSMTP();                                     
 						        $mail->Host = 'smtp.gmail.com';                      
 						        $mail->SMTPAuth = true;                             
-						        $mail->Username = 'goodsamaritan2k20@gmail.com';     
-										$mail->Password = 'duxkxivrezeuguqe';             
+						        $mail->Username = 'tatakmedellin@gmail.com';     
+										$mail->Password = 'nzctaagwhqlcgbqq';             
 						        $mail->SMTPOptions = array(
 						            'ssl' => array(
 						            'verify_peer' => false,
@@ -643,11 +643,11 @@ if(isset($_POST['release_loan'])) {
 						        $mail->Port = 465;                                   
 
 						        //Send Email
-						        $mail->setFrom('goodsamaritan2k20@gmail.com');
+						        $mail->setFrom('tatakmedellin@gmail.com');
 						        
 						        //Recipients
 						        $mail->addAddress($email);              
-						        $mail->addReplyTo('goodsamaritan2k20@gmail.com');
+						        $mail->addReplyTo('tatakmedellin@gmail.com');
 						        
 						        //Content
 						        $mail->isHTML(true);                                  
@@ -712,8 +712,8 @@ if(isset($_POST['reject_application'])) {
 		        $mail->isSMTP();                                     
 		        $mail->Host = 'smtp.gmail.com';                      
 		        $mail->SMTPAuth = true;                             
-		         $mail->Username = 'goodsamaritan2k20@gmail.com';     
-						$mail->Password = 'duxkxivrezeuguqe';          
+		         $mail->Username = 'tatakmedellin@gmail.com';     
+						$mail->Password = 'nzctaagwhqlcgbqq';          
 		        $mail->SMTPOptions = array(
 		            'ssl' => array(
 		            'verify_peer' => false,
@@ -725,11 +725,11 @@ if(isset($_POST['reject_application'])) {
 		        $mail->Port = 465;                                   
 
 		        //Send Email
-		        $mail->setFrom('goodsamaritan2k20@gmail.com');
+		        $mail->setFrom('tatakmedellin@gmail.com');
 		        
 		        //Recipients
 		        $mail->addAddress($email);              
-		        $mail->addReplyTo('goodsamaritan2k20@gmail.com');
+		        $mail->addReplyTo('tatakmedellin@gmail.com');
 		        
 		        //Content
 		        $mail->isHTML(true);                                  
@@ -835,8 +835,8 @@ if(isset($_POST['paid_loan'])) {
 		        $mail->isSMTP();                                     
 		        $mail->Host = 'smtp.gmail.com';                      
 		        $mail->SMTPAuth = true;                             
-		         $mail->Username = 'goodsamaritan2k20@gmail.com';     
-						$mail->Password = 'duxkxivrezeuguqe';              
+		         $mail->Username = 'tatakmedellin@gmail.com';     
+						$mail->Password = 'nzctaagwhqlcgbqq';              
 		        $mail->SMTPOptions = array(
 		            'ssl' => array(
 		            'verify_peer' => false,
@@ -848,11 +848,11 @@ if(isset($_POST['paid_loan'])) {
 		        $mail->Port = 465;                                   
 
 		        //Send Email
-		        $mail->setFrom('goodsamaritan2k20@gmail.com');
+		        $mail->setFrom('tatakmedellin@gmail.com');
 		        
 		        //Recipients
 		        $mail->addAddress($email);              
-		        $mail->addReplyTo('goodsamaritan2k20@gmail.com');
+		        $mail->addReplyTo('tatakmedellin@gmail.com');
 		        
 		        //Content
 		        $mail->isHTML(true);                                  
